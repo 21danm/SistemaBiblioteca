@@ -1,0 +1,13 @@
+# Control de Biblioteca - Segundo Parcial POO
+
+**Universidad:** Universidad Tecnológica de Honduras (UTH)  
+**Alumno:** [Danny Josue Murillo Urrea]  
+**Cuenta:** [202530040113] 
+
+## Arquitectura y Tecnologías
+Sistema de consola en Java estructurado en capas (`modelo`, `excepciones`, `dao`, `dao.impl`, `servicio`, `app`) conectado a una base de datos relacional **SQLite** mediante el driver **JDBC**. Utiliza sentencias `PreparedStatement`, cierre automático con `try-with-resources` y validación de integridad referencial (`PRAGMA foreign_keys = ON`).
+
+## Pasos de Ejecución
+1. Descargar o clonar el repositorio:
+   ```bash
+   git clone [https://github.com/21danm/SistemaBiblioteca.git](https://github.com/21danm/SistemaBiblioteca.git)
